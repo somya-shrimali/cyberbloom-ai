@@ -1,0 +1,1459 @@
+{
+  "users": {
+    "level": 4,
+    "xp": 375,
+    "xpNextLevel": 470,
+    "analystTitle": "Level 4 SOC Specialist",
+    "badges": [
+      {
+        "id": "first-analysis",
+        "name": "First Analysis",
+        "description": "Successfully processed your very first security logs file.",
+        "iconName": "terminal",
+        "color": "bg-[#ffd6e8]/45 border-[#ffd6e8]",
+        "unlocked": true,
+        "xpValue": 50,
+        "unlockedAt": "6:59:44 PM"
+      },
+      {
+        "id": "critical-detected",
+        "name": "Critical Threat Detected",
+        "description": "Triggered and quarantined an active Critical Severity security exploit.",
+        "iconName": "alert",
+        "color": "bg-[#e9d8fd]/45 border-[#e9d8fd]",
+        "unlocked": true,
+        "xpValue": 100,
+        "unlockedAt": "7:00:56 PM"
+      },
+      {
+        "id": "threat-hunter",
+        "name": "Threat Hunter",
+        "description": "Mapped a brute-force or lateral scanner run to a MITRE ATT&CK identifier.",
+        "iconName": "hunter",
+        "color": "bg-[#d6f4ff]/45 border-[#d6f4ff]",
+        "unlocked": true,
+        "xpValue": 75,
+        "unlockedAt": "7:00:21 PM"
+      },
+      {
+        "id": "academy-explorer",
+        "name": "CyberBloom Explorer",
+        "description": "Gleaned analytical handbook wisdom by studying the educational academy soil.",
+        "iconName": "compass",
+        "color": "bg-[#fff4c2]/45 border-[#fff4c2]",
+        "unlocked": true,
+        "xpValue": 50,
+        "unlockedAt": "7:10:59 PM"
+      },
+      {
+        "id": "cyber-guardian",
+        "name": "Cyber Guardian",
+        "description": "Attained Level 5 status and commanded the co-operative multi-agent collective.",
+        "iconName": "shield",
+        "color": "bg-emerald-50/45 border-emerald-300",
+        "unlocked": false,
+        "xpValue": 150
+      }
+    ],
+    "historyCount": 7
+  },
+  "uploadedLogs": [
+    {
+      "id": "log-1781270984053",
+      "timestamp": "12/6/2026, 6:59:44 pm",
+      "logText": "2026-06-12 09:01:22 User=rahul Login Success IP=192.168.1.10\n2026-06-12 09:05:14 User=rahul Opened Outlook\n2026-06-12 09:15:03 User=rahul Accessed HR Portal\n2026-06-12 10:05:18 User=rahul Downloaded employee_handbook.pdf\n2026-06-12 11:30:44 User=rahul Logged Out"
+    },
+    {
+      "id": "log-1781271020818",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "logText": "2026-06-12 01:01:01 Failed Login user=admin ip=198.51.100.42\n2026-06-12 01:01:03 Failed Login user=admin ip=198.51.100.42\n2026-06-12 01:01:05 Failed Login user=admin ip=198.51.100.42\n2026-06-12 01:01:07 Failed Login user=admin ip=198.51.100.42\n2026-06-12 01:01:09 Failed Login user=admin ip=198.51.100.42\n2026-06-12 01:02:01 Login Success user=admin ip=198.51.100.42"
+    },
+    {
+      "id": "log-1781271056345",
+      "timestamp": "12/6/2026, 7:00:56 pm",
+      "logText": "2026-06-12 10:12:11 User=rahul Executed update_helper.exe\n2026-06-12 10:12:15 DNS Query c2.botnet-master.su\n2026-06-12 10:12:18 Connection IP=185.112.4.99\n2026-06-12 10:12:20 Outbound HTTPS POST\n2026-06-12 10:12:30 Antivirus Alert Trojan.Generic"
+    },
+    {
+      "id": "log-1781271654028",
+      "timestamp": "12/6/2026, 7:10:54 pm",
+      "logText": "2026-06-12 10:12:11 User=rahul Executed update_helper.exe\n2026-06-12 10:12:15 DNS Query c2.botnet-master.su\n2026-06-12 10:12:18 Connection IP=185.112.4.99\n2026-06-12 10:12:20 Outbound HTTPS POST\n2026-06-12 10:12:30 Antivirus Alert Trojan.Generic"
+    },
+    {
+      "id": "log-1781271670465",
+      "timestamp": "12/6/2026, 7:11:10 pm",
+      "logText": "2026-06-12 10:12:11 User=rahul Executed update_helper.exe\n2026-06-12 10:12:15 DNS Query c2.botnet-master.su\n2026-06-12 10:12:18 Connection IP=185.112.4.99\n2026-06-12 10:12:20 Outbound HTTPS POST\n2026-06-12 10:12:30 Antivirus Alert Trojan.Generic"
+    },
+    {
+      "id": "log-1781272005666",
+      "timestamp": "12/6/2026, 7:16:45 pm",
+      "logText": "https://meet.google.com/cme-gbfq-ghf\n"
+    },
+    {
+      "id": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "logText": "192.168.114.180 - - [Jun 16 2026, 21:16:53] \"PUT /blog HTTP/1.1\" 400 6440 \"https://www.bing.com\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n184.50.90.129 - - [Jun 13 2026, 16:39:58] \"DELETE /services HTTP/1.1\" 304 0 \"https://www.bing.com\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36\"\n192.168.234.79 - - [Jun 16 2026, 00:33:08] \"DELETE /checkout HTTP/1.1\" 400 3471 \"https://www.bing.com\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n177.163.92.112 - - [Jun 17 2026, 00:22:06] \"GET /search HTTP/1.1\" 200 5344 \"https://www.twitter.com\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1\"\n176.140.11.184 - - [Jun 18 2026, 06:50:08] \"PUT /home HTTP/1.1\" 301 10573 \"https://www.twitter.com\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1\"\n3.243.148.38 - - [Jun 13 2026, 07:04:09] \"DELETE /products HTTP/1.1\" 301 4251 \"https://www.example.com\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1\"\n10.223.72.58 - - [Jun 14 2026, 21:22:49] \"POST /contact HTTP/1.1\" 200 8204 \"https://www.twitter.com\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0\"\n172.22.156.19 - - [Jun 17 2026, 19:23:12] \"DELETE /register HTTP/1.1\" 500 9257 \"https://www.example.com\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36\"\n10.207.120.203 - - [Jun 15 2026, 09:43:51] \"POST /products?q=search+term HTTP/1.1\" 403 6859 \"https://www.facebook.com\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15\"\n173.69.66.116 - - [Jun 13 2026, 11:12:09] \"GET /checkout HTTP/1.1\" 200 8538 \"https://www.example.com\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36\""
+    }
+  ],
+  "securityEvents": [
+    {
+      "id": "evt-1781270984062-0",
+      "logId": "log-1781270984053",
+      "timestamp": "12/6/2026, 6:59:44 pm",
+      "username": "rahul",
+      "sourceIp": "192.168.1.10",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781270984062-1",
+      "logId": "log-1781270984053",
+      "timestamp": "12/6/2026, 6:59:44 pm",
+      "username": "rahul",
+      "sourceIp": "192.168.1.10",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781270984062-2",
+      "logId": "log-1781270984053",
+      "timestamp": "12/6/2026, 6:59:44 pm",
+      "username": "rahul",
+      "sourceIp": "192.168.1.10",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781270984062-3",
+      "logId": "log-1781270984053",
+      "timestamp": "12/6/2026, 6:59:44 pm",
+      "username": "rahul",
+      "sourceIp": "192.168.1.10",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781270984062-4",
+      "logId": "log-1781270984053",
+      "timestamp": "12/6/2026, 6:59:44 pm",
+      "username": "rahul",
+      "sourceIp": "192.168.1.10",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781271020818-0",
+      "logId": "log-1781271020818",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "username": "admin",
+      "sourceIp": "198.51.100.42",
+      "destIp": "unknown",
+      "eventType": "Failed Auth",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781271020818-1",
+      "logId": "log-1781271020818",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "username": "admin",
+      "sourceIp": "198.51.100.42",
+      "destIp": "unknown",
+      "eventType": "Failed Auth",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781271020818-2",
+      "logId": "log-1781271020818",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "username": "admin",
+      "sourceIp": "198.51.100.42",
+      "destIp": "unknown",
+      "eventType": "Failed Auth",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781271020818-3",
+      "logId": "log-1781271020818",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "username": "admin",
+      "sourceIp": "198.51.100.42",
+      "destIp": "unknown",
+      "eventType": "Failed Auth",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781271020818-4",
+      "logId": "log-1781271020818",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "username": "admin",
+      "sourceIp": "198.51.100.42",
+      "destIp": "unknown",
+      "eventType": "Failed Auth",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781271020818-5",
+      "logId": "log-1781271020818",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "username": "admin",
+      "sourceIp": "198.51.100.42",
+      "destIp": "unknown",
+      "eventType": "Failed Auth",
+      "filename": "none",
+      "processName": "none"
+    },
+    {
+      "id": "evt-1781271056346-0",
+      "logId": "log-1781271056345",
+      "timestamp": "12/6/2026, 7:00:56 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271056346-1",
+      "logId": "log-1781271056345",
+      "timestamp": "12/6/2026, 7:00:56 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271056346-2",
+      "logId": "log-1781271056345",
+      "timestamp": "12/6/2026, 7:00:56 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271056346-3",
+      "logId": "log-1781271056345",
+      "timestamp": "12/6/2026, 7:00:56 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271056346-4",
+      "logId": "log-1781271056345",
+      "timestamp": "12/6/2026, 7:00:56 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271654028-0",
+      "logId": "log-1781271654028",
+      "timestamp": "12/6/2026, 7:10:54 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271654028-1",
+      "logId": "log-1781271654028",
+      "timestamp": "12/6/2026, 7:10:54 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271654028-2",
+      "logId": "log-1781271654028",
+      "timestamp": "12/6/2026, 7:10:54 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271654028-3",
+      "logId": "log-1781271654028",
+      "timestamp": "12/6/2026, 7:10:54 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271654028-4",
+      "logId": "log-1781271654028",
+      "timestamp": "12/6/2026, 7:10:54 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271670465-0",
+      "logId": "log-1781271670465",
+      "timestamp": "12/6/2026, 7:11:10 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271670465-1",
+      "logId": "log-1781271670465",
+      "timestamp": "12/6/2026, 7:11:10 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271670465-2",
+      "logId": "log-1781271670465",
+      "timestamp": "12/6/2026, 7:11:10 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271670465-3",
+      "logId": "log-1781271670465",
+      "timestamp": "12/6/2026, 7:11:10 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781271670465-4",
+      "logId": "log-1781271670465",
+      "timestamp": "12/6/2026, 7:11:10 pm",
+      "username": "rahul",
+      "sourceIp": "185.112.4.99",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "update_helper.exe",
+      "processName": "update_helper.exe"
+    },
+    {
+      "id": "evt-1781272005667-0",
+      "logId": "log-1781272005666",
+      "timestamp": "12/6/2026, 7:16:45 pm",
+      "username": "unknown",
+      "sourceIp": "unknown",
+      "destIp": "unknown",
+      "eventType": "Access Log",
+      "filename": "https://meet.google.com/cme-gbfq-ghf",
+      "processName": "https://meet.google.com/cme-gbfq-ghf"
+    },
+    {
+      "id": "evt-1781272058087-0",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058087-1",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-2",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-3",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-4",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-5",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-6",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-7",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-8",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    },
+    {
+      "id": "evt-1781272058088-9",
+      "logId": "log-1781272058087",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "username": "unknown",
+      "sourceIp": "192.168.114.180",
+      "destIp": "184.50.90.129",
+      "eventType": "Access Log",
+      "filename": "/blog",
+      "processName": "/blog"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc-1781270984062",
+      "logId": "log-1781270984053",
+      "classification": "Normal Activity",
+      "severity": "Low",
+      "riskScore": 13,
+      "confidenceScore": 30,
+      "status": "Open"
+    },
+    {
+      "id": "inc-1781271020818",
+      "logId": "log-1781271020818",
+      "classification": "Brute Force Attack",
+      "severity": "Critical",
+      "riskScore": 95,
+      "confidenceScore": 90,
+      "status": "Open"
+    },
+    {
+      "id": "inc-1781271056346",
+      "logId": "log-1781271056345",
+      "classification": "Malware Activity",
+      "severity": "Critical",
+      "riskScore": 94,
+      "confidenceScore": 90,
+      "status": "Open"
+    },
+    {
+      "id": "inc-1781271654029",
+      "logId": "log-1781271654028",
+      "classification": "Malware Activity",
+      "severity": "Critical",
+      "riskScore": 94,
+      "confidenceScore": 90,
+      "status": "Open"
+    },
+    {
+      "id": "inc-1781271670465",
+      "logId": "log-1781271670465",
+      "classification": "Malware Activity",
+      "severity": "Critical",
+      "riskScore": 94,
+      "confidenceScore": 90,
+      "status": "Open"
+    },
+    {
+      "id": "inc-1781272005667",
+      "logId": "log-1781272005666",
+      "classification": "Malware Activity",
+      "severity": "Critical",
+      "riskScore": 94,
+      "confidenceScore": 30,
+      "status": "Open"
+    },
+    {
+      "id": "inc-1781272058088",
+      "logId": "log-1781272058087",
+      "classification": "Malware Activity",
+      "severity": "Critical",
+      "riskScore": 94,
+      "confidenceScore": 30,
+      "status": "Open"
+    }
+  ],
+  "threatIndicators": [
+    {
+      "type": "ip",
+      "value": "198.51.100.42",
+      "description": "Known Bruteforce Scanning Node (SSH)"
+    },
+    {
+      "type": "ip",
+      "value": "142.250.200.12",
+      "description": "Exploitive SQL Injection Request Origin"
+    },
+    {
+      "type": "ip",
+      "value": "185.112.4.99",
+      "description": "Malicious CobaltStrike C2 Beacon IP"
+    },
+    {
+      "type": "ip",
+      "value": "99.88.77.66",
+      "description": "Off-hours Employee Residential Home Proxy IP"
+    },
+    {
+      "type": "domain",
+      "value": "c2.botnet-master.su",
+      "description": "Suspected malware Command and Control gateway domain"
+    },
+    {
+      "type": "domain",
+      "value": "megaupload.biz",
+      "description": "Blocked exfiltration file locker domain"
+    },
+    {
+      "type": "malware",
+      "value": "update_helper.exe",
+      "description": "Unverified Trojan persistent malware loader payload"
+    }
+  ],
+  "threatReports": [
+    {
+      "id": "rep-1781270984053",
+      "logId": "log-1781270984053",
+      "title": "CyberBloom Security Assessment: Normal Activity",
+      "timestamp": "12/6/2026, 6:59:44 pm",
+      "logSummary": "The security logs ingestion finished successfully. Log patterns show standard activity for user(s) rahul originating from IP(s) 192.168.1.10 with no anomalies flagged. No active alert mitigations are required.",
+      "executiveSummary": "The security logs ingestion finished successfully. Log patterns show standard activity for user(s) rahul originating from IP(s) 192.168.1.10 with no anomalies flagged. No active alert mitigations are required.",
+      "attackClassification": "Normal Activity",
+      "severity": "Low",
+      "confidenceScore": 30,
+      "riskScore": 13,
+      "riskFactors": [
+        "Detected Login Failures spikes: 0",
+        "Detected Successful Logins: 1",
+        "Detected SQL union selects: 0",
+        "Unknown executing executables: 0",
+        "Suspicious shell operations: 0"
+      ],
+      "affectedAssets": [
+        "User Identity: rahul",
+        "IP Node: 192.168.1.10"
+      ],
+      "timeline": [
+        {
+          "time": "09:01:22",
+          "event": "User=rahul Login Success IP=192.168.1.10",
+          "status": "remediation"
+        },
+        {
+          "time": "09:05:14",
+          "event": "User=rahul Opened Outlook",
+          "status": "remediation"
+        },
+        {
+          "time": "09:15:03",
+          "event": "User=rahul Accessed HR Portal",
+          "status": "info"
+        },
+        {
+          "time": "10:05:18",
+          "event": "User=rahul Downloaded employee_handbook.pdf",
+          "status": "info"
+        },
+        {
+          "time": "11:30:44",
+          "event": "User=rahul Logged Out",
+          "status": "info"
+        }
+      ],
+      "mitigations": [
+        "Audit authorization baseline paths periodically for compliance checks.",
+        "Validate least-privilege role boundaries on general user roles.",
+        "Verify perimeter firewall configs align with active enterprise server architectures."
+      ],
+      "responseChecklist": [
+        {
+          "task": "Acknowledge successful baseline verification of logs run",
+          "completed": true
+        },
+        {
+          "task": "Log analyst audit comments for review records",
+          "completed": true
+        },
+        {
+          "task": "Re-run directory checks to ensure telemetry is normal",
+          "completed": false
+        }
+      ],
+      "analystNotes": "Forensic assessment generated programmatically by CyberBloom Log Analysis Core. Telemetry indicators matched the behavioral profile of Normal Activity. Action mitigations configured above.",
+      "agentExplanations": {
+        "log-detective": {
+          "title": "📥 Log Ingestion Agent",
+          "explanation": "Observed Evidence:\n\n* Source IP: 192.168.1.10\n* User: rahul\n* 1 successful login(s)\n\nReasoning:\n\n* Parsed log characters and extracted: Source IP: 192.168.1.10; User: rahul; 1 successful login(s).\n\nMITRE Mapping:\n\n* N/A - Ingestion stage\n\nAssessment:\n\n* Logs normalized into common schema for pipeline processing.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Monitor system logs\n* Verify baseline behavior\n* Review access policies",
+          "evidence": [
+            "Source IP: 192.168.1.10",
+            "User: rahul",
+            "1 successful login(s)"
+          ]
+        },
+        "threat-hunter": {
+          "title": "🔍 IOC Detection Agent",
+          "explanation": "Observed Evidence:\n\n* Source IP: 192.168.1.10\n* User: rahul\n* 1 successful login(s)\n\nReasoning:\n\n* No suspicious behavior indicators or rule violations found in the log text.\n\nMITRE Mapping:\n\n* N/A - Standard Client Operation\n\nAssessment:\n\n* Logs matched security signature for: Normal Activity\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Monitor system logs\n* Verify baseline behavior\n* Review access policies",
+          "evidence": [
+            "Source IP: 192.168.1.10",
+            "User: rahul",
+            "1 successful login(s)"
+          ]
+        },
+        "risk-judge": {
+          "title": "🧠 MITRE Mapping Agent",
+          "explanation": "Observed Evidence:\n\n* Threat classification resolved: Normal Activity\n* MITRE ATT&CK Mapping: N/A - Standard Client Operation\n\nReasoning:\n\n* Threat pattern mapped to technique N/A - Standard Client Operation.\n\nMITRE Mapping:\n\n* N/A - Standard Client Operation\n\nAssessment:\n\n* Severity category computed as: Low.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Monitor system logs\n* Verify baseline behavior\n* Review access policies",
+          "evidence": [
+            "Threat classification resolved: Normal Activity",
+            "MITRE ATT&CK Mapping: N/A - Standard Client Operation"
+          ]
+        },
+        "report-wizard": {
+          "title": "⚠ Risk Scoring Agent",
+          "explanation": "Observed Evidence:\n\n* Computed Risk Score: 13/100\n* Assigned Severity level: Low\n\nReasoning:\n\n* No suspicious behavior detected in logs.\n\nMITRE Mapping:\n\n* N/A - Standard Client Operation\n\nAssessment:\n\n* Threat risk prioritized based on impact weightings.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Monitor system logs\n* Verify baseline behavior\n* Review access policies",
+          "evidence": [
+            "Computed Risk Score: 13/100",
+            "Assigned Severity level: Low"
+          ]
+        },
+        "defense-advisor": {
+          "title": "📊 Incident Report Agent",
+          "explanation": "Observed Evidence:\n\n* Timeline event checkpoints: 5\n* Mitigation checklist task(s) assigned: 3\n\nReasoning:\n\n* Advisor compiled 3 mitigation task(s) matching classification Normal Activity.\n\nMITRE Mapping:\n\n* N/A - Standard Client Operation\n\nAssessment:\n\n* Mitigations compiled: [Audit authorization baseline paths periodically for compliance checks.; Validate least-privilege role boundaries on general user roles.].\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Monitor system logs\n* Verify baseline behavior\n* Review access policies",
+          "evidence": [
+            "Timeline event checkpoints: 5",
+            "Mitigation checklist task(s) assigned: 3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rep-1781271020818",
+      "logId": "log-1781271020818",
+      "title": "CyberBloom Security Assessment: Brute Force Attack",
+      "timestamp": "12/6/2026, 7:00:20 pm",
+      "logSummary": "A credential brute force attack was detected originating from IP(s) 198.51.100.42 for user(s) admin. Telemetry shows 5 sequential authentication failures, followed by a successful login.",
+      "executiveSummary": "A credential brute force attack was detected originating from IP(s) 198.51.100.42 for user(s) admin. Telemetry shows 5 sequential authentication failures, followed by a successful login.",
+      "attackClassification": "Brute Force Attack",
+      "severity": "Critical",
+      "confidenceScore": 90,
+      "riskScore": 95,
+      "riskFactors": [
+        "Detected Login Failures spikes: 5",
+        "Detected Successful Logins: 1",
+        "Detected SQL union selects: 0",
+        "Unknown executing executables: 0",
+        "Suspicious shell operations: 0"
+      ],
+      "affectedAssets": [
+        "User Identity: admin",
+        "IP Node: 198.51.100.42"
+      ],
+      "timeline": [
+        {
+          "time": "01:01:01",
+          "event": "Failed Login user=admin ip=198.51.100.42",
+          "status": "flag"
+        },
+        {
+          "time": "01:01:03",
+          "event": "Failed Login user=admin ip=198.51.100.42",
+          "status": "flag"
+        },
+        {
+          "time": "01:01:05",
+          "event": "Failed Login user=admin ip=198.51.100.42",
+          "status": "flag"
+        },
+        {
+          "time": "01:01:07",
+          "event": "Failed Login user=admin ip=198.51.100.42",
+          "status": "flag"
+        },
+        {
+          "time": "01:01:09",
+          "event": "Failed Login user=admin ip=198.51.100.42",
+          "status": "flag"
+        },
+        {
+          "time": "01:02:01",
+          "event": "Login Success user=admin ip=198.51.100.42",
+          "status": "remediation"
+        }
+      ],
+      "mitigations": [
+        "Deploy port security controls with progressive block penalties for sequential failure limits.",
+        "Disable password authentication over remote terminal sessions. Restrict access strictly to authorized key mechanisms.",
+        "Transition administration ports to unmapped non-standard interfaces inside secure network scopes."
+      ],
+      "responseChecklist": [
+        {
+          "task": "Kill active rogue sessions executing administrative commands",
+          "completed": true
+        },
+        {
+          "task": "Apply temporary firewalls blocking attacker incoming IP routes",
+          "completed": true
+        },
+        {
+          "task": "Isolate target server hosts in private network clusters",
+          "completed": false
+        },
+        {
+          "task": "Enforce multi-factor credentials check blocks across all system nodes",
+          "completed": false
+        }
+      ],
+      "analystNotes": "Forensic assessment generated programmatically by CyberBloom Log Analysis Core. Telemetry indicators matched the behavioral profile of Brute Force Attack. Action mitigations configured above.",
+      "agentExplanations": {
+        "log-detective": {
+          "title": "📥 Log Ingestion Agent",
+          "explanation": "Observed Evidence:\n\n* 5 failed login attempts\n* Successful login from same IP\n* Source IP: 198.51.100.42\n* Threat intelligence database match: 198.51.100.42 (Known Bruteforce Scanning Node (SSH))\n\nReasoning:\n\n* Parsed log characters and extracted: 5 failed login attempts; Successful login from same IP; Source IP: 198.51.100.42; Threat intelligence database match: 198.51.100.42 (Known Bruteforce Scanning Node (SSH)).\n\nMITRE Mapping:\n\n* N/A - Ingestion stage\n\nAssessment:\n\n* Logs normalized into common schema for pipeline processing.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Enable MFA\n* Lock affected account\n* Block source IP",
+          "evidence": [
+            "5 failed login attempts",
+            "Successful login from same IP",
+            "Source IP: 198.51.100.42",
+            "Threat intelligence database match: 198.51.100.42 (Known Bruteforce Scanning Node (SSH))"
+          ]
+        },
+        "threat-hunter": {
+          "title": "🔍 IOC Detection Agent",
+          "explanation": "Observed Evidence:\n\n* 5 failed login attempts\n* Successful login from same IP\n* Source IP: 198.51.100.42\n* Threat intelligence database match: 198.51.100.42 (Known Bruteforce Scanning Node (SSH))\n\nReasoning:\n\n* Multiple failed login attempts (5) followed by a successful authentication indicating a potential brute force entry. Threat intelligence feed matched indicators: IP Match: \"198.51.100.42\" (Known Bruteforce Scanning Node (SSH))\n\nMITRE Mapping:\n\n* T1110 - Brute Force\n\nAssessment:\n\n* Logs matched security signature for: Brute Force Attack\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Enable MFA\n* Lock affected account\n* Block source IP",
+          "evidence": [
+            "5 failed login attempts",
+            "Successful login from same IP",
+            "Source IP: 198.51.100.42",
+            "Threat intelligence database match: 198.51.100.42 (Known Bruteforce Scanning Node (SSH))"
+          ]
+        },
+        "risk-judge": {
+          "title": "🧠 MITRE Mapping Agent",
+          "explanation": "Observed Evidence:\n\n* Threat classification resolved: Brute Force Attack\n* MITRE ATT&CK Mapping: T1110 - Brute Force\n\nReasoning:\n\n* Threat pattern mapped to technique T1110 - Brute Force.\n\nMITRE Mapping:\n\n* T1110 - Brute Force\n\nAssessment:\n\n* Severity category computed as: Critical.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Enable MFA\n* Lock affected account\n* Block source IP",
+          "evidence": [
+            "Threat classification resolved: Brute Force Attack",
+            "MITRE ATT&CK Mapping: T1110 - Brute Force"
+          ]
+        },
+        "report-wizard": {
+          "title": "⚠ Risk Scoring Agent",
+          "explanation": "Observed Evidence:\n\n* Computed Risk Score: 95/100\n* Assigned Severity level: Critical\n\nReasoning:\n\n* Anomalous activity detected based on: 5 failed logins, successful login.\n\nMITRE Mapping:\n\n* T1110 - Brute Force\n\nAssessment:\n\n* Threat risk prioritized based on impact weightings.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Enable MFA\n* Lock affected account\n* Block source IP",
+          "evidence": [
+            "Computed Risk Score: 95/100",
+            "Assigned Severity level: Critical"
+          ]
+        },
+        "defense-advisor": {
+          "title": "📊 Incident Report Agent",
+          "explanation": "Observed Evidence:\n\n* Timeline event checkpoints: 6\n* Mitigation checklist task(s) assigned: 3\n\nReasoning:\n\n* Advisor compiled 3 mitigation task(s) matching classification Brute Force Attack.\n\nMITRE Mapping:\n\n* T1110 - Brute Force\n\nAssessment:\n\n* Mitigations compiled: [Deploy port security controls with progressive block penalties for sequential failure limits.; Disable password authentication over remote terminal sessions. Restrict access strictly to authorized key mechanisms.].\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Enable MFA\n* Lock affected account\n* Block source IP",
+          "evidence": [
+            "Timeline event checkpoints: 6",
+            "Mitigation checklist task(s) assigned: 3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rep-1781271056345",
+      "logId": "log-1781271056345",
+      "title": "CyberBloom Security Assessment: Malware Activity",
+      "timestamp": "12/6/2026, 7:00:56 pm",
+      "logSummary": "Malicious process execution and outbound activity detected involving executable(s) [update_helper.exe] originating from IP(s) 185.112.4.99 triggering antivirus alerts.",
+      "executiveSummary": "Malicious process execution and outbound activity detected involving executable(s) [update_helper.exe] originating from IP(s) 185.112.4.99 triggering antivirus alerts.",
+      "attackClassification": "Malware Activity",
+      "severity": "Critical",
+      "confidenceScore": 90,
+      "riskScore": 94,
+      "riskFactors": [
+        "Detected Login Failures spikes: 0",
+        "Detected Successful Logins: 0",
+        "Detected SQL union selects: 0",
+        "Unknown executing executables: 1",
+        "Suspicious shell operations: 0"
+      ],
+      "affectedAssets": [
+        "User Identity: rahul",
+        "IP Node: 185.112.4.99",
+        "Binary/Process: update_helper.exe"
+      ],
+      "timeline": [
+        {
+          "time": "10:12:11",
+          "event": "User=rahul Executed update_helper.exe",
+          "status": "info"
+        }
+      ],
+      "mitigations": [
+        "Configure network switches to isolate compromised host computer from routing sibling segments.",
+        "Add bad IP network scope to general firewall block-list profiles.",
+        "Clean registry startup keys and script paths."
+      ],
+      "responseChecklist": [
+        {
+          "task": "Isolate compromised host machine from local subnet routers",
+          "completed": true
+        },
+        {
+          "task": "Ban control platform IP routes inside network proxy blocklists",
+          "completed": true
+        },
+        {
+          "task": "Kill anomalous threads executing in active task manager processes",
+          "completed": false
+        },
+        {
+          "task": "Run enterprise scrubbing sweeps matching executable file signatures",
+          "completed": false
+        }
+      ],
+      "analystNotes": "Forensic assessment generated programmatically by CyberBloom Log Analysis Core. Telemetry indicators matched the behavioral profile of Malware Activity. Action mitigations configured above.",
+      "agentExplanations": {
+        "log-detective": {
+          "title": "📥 Log Ingestion Agent",
+          "explanation": "Observed Evidence:\n\n* Process: update_helper.exe\n* Domain: botnet-master.su\n* Threat IP: 185.112.4.99\n* Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)\n* Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)\n* Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)\n\nReasoning:\n\n* Parsed log characters and extracted: Process: update_helper.exe; Domain: botnet-master.su; Threat IP: 185.112.4.99; Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP); Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain); Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload).\n\nMITRE Mapping:\n\n* N/A - Ingestion stage\n\nAssessment:\n\n* Logs normalized into common schema for pipeline processing.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: update_helper.exe",
+            "Domain: botnet-master.su",
+            "Threat IP: 185.112.4.99",
+            "Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)",
+            "Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)",
+            "Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)"
+          ]
+        },
+        "threat-hunter": {
+          "title": "🔍 IOC Detection Agent",
+          "explanation": "Observed Evidence:\n\n* Process: update_helper.exe\n* Domain: botnet-master.su\n* Threat IP: 185.112.4.99\n* Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)\n* Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)\n* Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)\n\nReasoning:\n\n* Unverified binary execution run, hollowing processes and beaconing. Threat intelligence feed matched indicators: IP Match: \"185.112.4.99\" (Malicious CobaltStrike C2 Beacon IP); DOMAIN Match: \"c2.botnet-master.su\" (Suspected malware Command and Control gateway domain); MALWARE Match: \"update_helper.exe\" (Unverified Trojan persistent malware loader payload)\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Logs matched security signature for: Malware Activity\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: update_helper.exe",
+            "Domain: botnet-master.su",
+            "Threat IP: 185.112.4.99",
+            "Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)",
+            "Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)",
+            "Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)"
+          ]
+        },
+        "risk-judge": {
+          "title": "🧠 MITRE Mapping Agent",
+          "explanation": "Observed Evidence:\n\n* Threat classification resolved: Malware Activity\n* MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic\n\nReasoning:\n\n* Threat pattern mapped to technique T1071.001 - Application Layer Protocol C2 Web Traffic.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Severity category computed as: Critical.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Threat classification resolved: Malware Activity",
+            "MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic"
+          ]
+        },
+        "report-wizard": {
+          "title": "⚠ Risk Scoring Agent",
+          "explanation": "Observed Evidence:\n\n* Computed Risk Score: 94/100\n* Assigned Severity level: Critical\n\nReasoning:\n\n* Anomalous activity detected based on: executables [update_helper.exe], 2 AV alerts.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Threat risk prioritized based on impact weightings.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Computed Risk Score: 94/100",
+            "Assigned Severity level: Critical"
+          ]
+        },
+        "defense-advisor": {
+          "title": "📊 Incident Report Agent",
+          "explanation": "Observed Evidence:\n\n* Timeline event checkpoints: 1\n* Mitigation checklist task(s) assigned: 3\n\nReasoning:\n\n* Advisor compiled 3 mitigation task(s) matching classification Malware Activity.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Mitigations compiled: [Configure network switches to isolate compromised host computer from routing sibling segments.; Add bad IP network scope to general firewall block-list profiles.].\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Timeline event checkpoints: 1",
+            "Mitigation checklist task(s) assigned: 3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rep-1781271654028",
+      "logId": "log-1781271654028",
+      "title": "CyberBloom Security Assessment: Malware Activity",
+      "timestamp": "12/6/2026, 7:10:54 pm",
+      "logSummary": "Malicious process execution and outbound activity detected involving executable(s) [update_helper.exe] originating from IP(s) 185.112.4.99 triggering antivirus alerts.",
+      "executiveSummary": "Malicious process execution and outbound activity detected involving executable(s) [update_helper.exe] originating from IP(s) 185.112.4.99 triggering antivirus alerts.",
+      "attackClassification": "Malware Activity",
+      "severity": "Critical",
+      "confidenceScore": 90,
+      "riskScore": 94,
+      "riskFactors": [
+        "Detected Login Failures spikes: 0",
+        "Detected Successful Logins: 0",
+        "Detected SQL union selects: 0",
+        "Unknown executing executables: 1",
+        "Suspicious shell operations: 0"
+      ],
+      "affectedAssets": [
+        "User Identity: rahul",
+        "IP Node: 185.112.4.99",
+        "Binary/Process: update_helper.exe"
+      ],
+      "timeline": [
+        {
+          "time": "10:12:11",
+          "event": "User=rahul Executed update_helper.exe",
+          "status": "info"
+        }
+      ],
+      "mitigations": [
+        "Configure network switches to isolate compromised host computer from routing sibling segments.",
+        "Add bad IP network scope to general firewall block-list profiles.",
+        "Clean registry startup keys and script paths."
+      ],
+      "responseChecklist": [
+        {
+          "task": "Isolate compromised host machine from local subnet routers",
+          "completed": true
+        },
+        {
+          "task": "Ban control platform IP routes inside network proxy blocklists",
+          "completed": true
+        },
+        {
+          "task": "Kill anomalous threads executing in active task manager processes",
+          "completed": false
+        },
+        {
+          "task": "Run enterprise scrubbing sweeps matching executable file signatures",
+          "completed": false
+        }
+      ],
+      "analystNotes": "Forensic assessment generated programmatically by CyberBloom Log Analysis Core. Telemetry indicators matched the behavioral profile of Malware Activity. Action mitigations configured above.",
+      "agentExplanations": {
+        "log-detective": {
+          "title": "📥 Log Ingestion Agent",
+          "explanation": "Observed Evidence:\n\n* Process: update_helper.exe\n* Domain: botnet-master.su\n* Threat IP: 185.112.4.99\n* Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)\n* Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)\n* Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)\n\nReasoning:\n\n* Parsed log characters and extracted: Process: update_helper.exe; Domain: botnet-master.su; Threat IP: 185.112.4.99; Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP); Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain); Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload).\n\nMITRE Mapping:\n\n* N/A - Ingestion stage\n\nAssessment:\n\n* Logs normalized into common schema for pipeline processing.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: update_helper.exe",
+            "Domain: botnet-master.su",
+            "Threat IP: 185.112.4.99",
+            "Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)",
+            "Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)",
+            "Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)"
+          ]
+        },
+        "threat-hunter": {
+          "title": "🔍 IOC Detection Agent",
+          "explanation": "Observed Evidence:\n\n* Process: update_helper.exe\n* Domain: botnet-master.su\n* Threat IP: 185.112.4.99\n* Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)\n* Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)\n* Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)\n\nReasoning:\n\n* Unverified binary execution run, hollowing processes and beaconing. Threat intelligence feed matched indicators: IP Match: \"185.112.4.99\" (Malicious CobaltStrike C2 Beacon IP); DOMAIN Match: \"c2.botnet-master.su\" (Suspected malware Command and Control gateway domain); MALWARE Match: \"update_helper.exe\" (Unverified Trojan persistent malware loader payload)\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Logs matched security signature for: Malware Activity\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: update_helper.exe",
+            "Domain: botnet-master.su",
+            "Threat IP: 185.112.4.99",
+            "Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)",
+            "Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)",
+            "Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)"
+          ]
+        },
+        "risk-judge": {
+          "title": "🧠 MITRE Mapping Agent",
+          "explanation": "Observed Evidence:\n\n* Threat classification resolved: Malware Activity\n* MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic\n\nReasoning:\n\n* Threat pattern mapped to technique T1071.001 - Application Layer Protocol C2 Web Traffic.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Severity category computed as: Critical.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Threat classification resolved: Malware Activity",
+            "MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic"
+          ]
+        },
+        "report-wizard": {
+          "title": "⚠ Risk Scoring Agent",
+          "explanation": "Observed Evidence:\n\n* Computed Risk Score: 94/100\n* Assigned Severity level: Critical\n\nReasoning:\n\n* Anomalous activity detected based on: executables [update_helper.exe], 2 AV alerts.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Threat risk prioritized based on impact weightings.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Computed Risk Score: 94/100",
+            "Assigned Severity level: Critical"
+          ]
+        },
+        "defense-advisor": {
+          "title": "📊 Incident Report Agent",
+          "explanation": "Observed Evidence:\n\n* Timeline event checkpoints: 1\n* Mitigation checklist task(s) assigned: 3\n\nReasoning:\n\n* Advisor compiled 3 mitigation task(s) matching classification Malware Activity.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Mitigations compiled: [Configure network switches to isolate compromised host computer from routing sibling segments.; Add bad IP network scope to general firewall block-list profiles.].\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Timeline event checkpoints: 1",
+            "Mitigation checklist task(s) assigned: 3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rep-1781271670465",
+      "logId": "log-1781271670465",
+      "title": "CyberBloom Security Assessment: Malware Activity",
+      "timestamp": "12/6/2026, 7:11:10 pm",
+      "logSummary": "Malicious process execution and outbound activity detected involving executable(s) [update_helper.exe] originating from IP(s) 185.112.4.99 triggering antivirus alerts.",
+      "executiveSummary": "Malicious process execution and outbound activity detected involving executable(s) [update_helper.exe] originating from IP(s) 185.112.4.99 triggering antivirus alerts.",
+      "attackClassification": "Malware Activity",
+      "severity": "Critical",
+      "confidenceScore": 90,
+      "riskScore": 94,
+      "riskFactors": [
+        "Detected Login Failures spikes: 0",
+        "Detected Successful Logins: 0",
+        "Detected SQL union selects: 0",
+        "Unknown executing executables: 1",
+        "Suspicious shell operations: 0"
+      ],
+      "affectedAssets": [
+        "User Identity: rahul",
+        "IP Node: 185.112.4.99",
+        "Binary/Process: update_helper.exe"
+      ],
+      "timeline": [
+        {
+          "time": "10:12:11",
+          "event": "User=rahul Executed update_helper.exe",
+          "status": "info"
+        }
+      ],
+      "mitigations": [
+        "Configure network switches to isolate compromised host computer from routing sibling segments.",
+        "Add bad IP network scope to general firewall block-list profiles.",
+        "Clean registry startup keys and script paths."
+      ],
+      "responseChecklist": [
+        {
+          "task": "Isolate compromised host machine from local subnet routers",
+          "completed": true
+        },
+        {
+          "task": "Ban control platform IP routes inside network proxy blocklists",
+          "completed": true
+        },
+        {
+          "task": "Kill anomalous threads executing in active task manager processes",
+          "completed": false
+        },
+        {
+          "task": "Run enterprise scrubbing sweeps matching executable file signatures",
+          "completed": false
+        }
+      ],
+      "analystNotes": "Forensic assessment generated programmatically by CyberBloom Log Analysis Core. Telemetry indicators matched the behavioral profile of Malware Activity. Action mitigations configured above.",
+      "agentExplanations": {
+        "log-detective": {
+          "title": "📥 Log Ingestion Agent",
+          "explanation": "Observed Evidence:\n\n* Process: update_helper.exe\n* Domain: botnet-master.su\n* Threat IP: 185.112.4.99\n* Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)\n* Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)\n* Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)\n\nReasoning:\n\n* Parsed log characters and extracted: Process: update_helper.exe; Domain: botnet-master.su; Threat IP: 185.112.4.99; Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP); Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain); Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload).\n\nMITRE Mapping:\n\n* N/A - Ingestion stage\n\nAssessment:\n\n* Logs normalized into common schema for pipeline processing.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: update_helper.exe",
+            "Domain: botnet-master.su",
+            "Threat IP: 185.112.4.99",
+            "Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)",
+            "Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)",
+            "Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)"
+          ]
+        },
+        "threat-hunter": {
+          "title": "🔍 IOC Detection Agent",
+          "explanation": "Observed Evidence:\n\n* Process: update_helper.exe\n* Domain: botnet-master.su\n* Threat IP: 185.112.4.99\n* Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)\n* Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)\n* Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)\n\nReasoning:\n\n* Unverified binary execution run, hollowing processes and beaconing. Threat intelligence feed matched indicators: IP Match: \"185.112.4.99\" (Malicious CobaltStrike C2 Beacon IP); DOMAIN Match: \"c2.botnet-master.su\" (Suspected malware Command and Control gateway domain); MALWARE Match: \"update_helper.exe\" (Unverified Trojan persistent malware loader payload)\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Logs matched security signature for: Malware Activity\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: update_helper.exe",
+            "Domain: botnet-master.su",
+            "Threat IP: 185.112.4.99",
+            "Threat intelligence database match: 185.112.4.99 (Malicious CobaltStrike C2 Beacon IP)",
+            "Threat intelligence database match: c2.botnet-master.su (Suspected malware Command and Control gateway domain)",
+            "Threat intelligence database match: update_helper.exe (Unverified Trojan persistent malware loader payload)"
+          ]
+        },
+        "risk-judge": {
+          "title": "🧠 MITRE Mapping Agent",
+          "explanation": "Observed Evidence:\n\n* Threat classification resolved: Malware Activity\n* MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic\n\nReasoning:\n\n* Threat pattern mapped to technique T1071.001 - Application Layer Protocol C2 Web Traffic.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Severity category computed as: Critical.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Threat classification resolved: Malware Activity",
+            "MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic"
+          ]
+        },
+        "report-wizard": {
+          "title": "⚠ Risk Scoring Agent",
+          "explanation": "Observed Evidence:\n\n* Computed Risk Score: 94/100\n* Assigned Severity level: Critical\n\nReasoning:\n\n* Anomalous activity detected based on: executables [update_helper.exe], 2 AV alerts.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Threat risk prioritized based on impact weightings.\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Computed Risk Score: 94/100",
+            "Assigned Severity level: Critical"
+          ]
+        },
+        "defense-advisor": {
+          "title": "📊 Incident Report Agent",
+          "explanation": "Observed Evidence:\n\n* Timeline event checkpoints: 1\n* Mitigation checklist task(s) assigned: 3\n\nReasoning:\n\n* Advisor compiled 3 mitigation task(s) matching classification Malware Activity.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Mitigations compiled: [Configure network switches to isolate compromised host computer from routing sibling segments.; Add bad IP network scope to general firewall block-list profiles.].\n\nConfidence:\n\n* High\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Timeline event checkpoints: 1",
+            "Mitigation checklist task(s) assigned: 3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rep-1781272005666",
+      "logId": "log-1781272005666",
+      "title": "CyberBloom Security Assessment: Malware Activity",
+      "timestamp": "12/6/2026, 7:16:45 pm",
+      "logSummary": "Malicious process execution and outbound activity detected involving executable(s) [https://meet.google.com/cme-gbfq-ghf]  .",
+      "executiveSummary": "Malicious process execution and outbound activity detected involving executable(s) [https://meet.google.com/cme-gbfq-ghf]  .",
+      "attackClassification": "Malware Activity",
+      "severity": "Critical",
+      "confidenceScore": 30,
+      "riskScore": 94,
+      "riskFactors": [
+        "Detected Login Failures spikes: 0",
+        "Detected Successful Logins: 0",
+        "Detected SQL union selects: 0",
+        "Unknown executing executables: 1",
+        "Suspicious shell operations: 0"
+      ],
+      "affectedAssets": [
+        "Binary/Process: https://meet.google.com/cme-gbfq-ghf"
+      ],
+      "timeline": [
+        {
+          "time": "00:00:0",
+          "event": "https://meet.google.com/cme-gbfq-ghf",
+          "status": "info"
+        }
+      ],
+      "mitigations": [
+        "Configure network switches to isolate compromised host computer from routing sibling segments.",
+        "Add bad IP network scope to general firewall block-list profiles.",
+        "Clean registry startup keys and script paths."
+      ],
+      "responseChecklist": [
+        {
+          "task": "Isolate compromised host machine from local subnet routers",
+          "completed": true
+        },
+        {
+          "task": "Ban control platform IP routes inside network proxy blocklists",
+          "completed": true
+        },
+        {
+          "task": "Kill anomalous threads executing in active task manager processes",
+          "completed": false
+        },
+        {
+          "task": "Run enterprise scrubbing sweeps matching executable file signatures",
+          "completed": false
+        }
+      ],
+      "analystNotes": "Forensic assessment generated programmatically by CyberBloom Log Analysis Core. Telemetry indicators matched the behavioral profile of Malware Activity. Action mitigations configured above.",
+      "agentExplanations": {
+        "log-detective": {
+          "title": "📥 Log Ingestion Agent",
+          "explanation": "Observed Evidence:\n\n* Process: https://meet.google.com/cme-gbfq-ghf\n* Domain: google.com\n\nReasoning:\n\n* Parsed log characters and extracted: Process: https://meet.google.com/cme-gbfq-ghf; Domain: google.com.\n\nMITRE Mapping:\n\n* N/A - Ingestion stage\n\nAssessment:\n\n* Logs normalized into common schema for pipeline processing.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: https://meet.google.com/cme-gbfq-ghf",
+            "Domain: google.com"
+          ]
+        },
+        "threat-hunter": {
+          "title": "🔍 IOC Detection Agent",
+          "explanation": "Observed Evidence:\n\n* Process: https://meet.google.com/cme-gbfq-ghf\n* Domain: google.com\n\nReasoning:\n\n* Unverified binary execution run, hollowing processes and beaconing.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Logs matched security signature for: Malware Activity\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: https://meet.google.com/cme-gbfq-ghf",
+            "Domain: google.com"
+          ]
+        },
+        "risk-judge": {
+          "title": "🧠 MITRE Mapping Agent",
+          "explanation": "Observed Evidence:\n\n* Threat classification resolved: Malware Activity\n* MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic\n\nReasoning:\n\n* Threat pattern mapped to technique T1071.001 - Application Layer Protocol C2 Web Traffic.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Severity category computed as: Critical.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Threat classification resolved: Malware Activity",
+            "MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic"
+          ]
+        },
+        "report-wizard": {
+          "title": "⚠ Risk Scoring Agent",
+          "explanation": "Observed Evidence:\n\n* Computed Risk Score: 94/100\n* Assigned Severity level: Critical\n\nReasoning:\n\n* Anomalous activity detected based on: executables [https://meet.google.com/cme-gbfq-ghf].\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Threat risk prioritized based on impact weightings.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Computed Risk Score: 94/100",
+            "Assigned Severity level: Critical"
+          ]
+        },
+        "defense-advisor": {
+          "title": "📊 Incident Report Agent",
+          "explanation": "Observed Evidence:\n\n* Timeline event checkpoints: 1\n* Mitigation checklist task(s) assigned: 3\n\nReasoning:\n\n* Advisor compiled 3 mitigation task(s) matching classification Malware Activity.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Mitigations compiled: [Configure network switches to isolate compromised host computer from routing sibling segments.; Add bad IP network scope to general firewall block-list profiles.].\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Timeline event checkpoints: 1",
+            "Mitigation checklist task(s) assigned: 3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rep-1781272058087",
+      "logId": "log-1781272058087",
+      "title": "CyberBloom Security Assessment: Malware Activity",
+      "timestamp": "12/6/2026, 7:17:38 pm",
+      "logSummary": "Malicious process execution and outbound activity detected involving executable(s) [/blog, /services, /checkout, /search, /home, /products, /contact, /register, /products?q=search+term] originating from IP(s) 192.168.114.180, 184.50.90.129, 192.168.234.79, 177.163.92.112, 176.140.11.184, 3.243.148.38, 10.223.72.58, 172.22.156.19, 10.207.120.203, 173.69.66.116 .",
+      "executiveSummary": "Malicious process execution and outbound activity detected involving executable(s) [/blog, /services, /checkout, /search, /home, /products, /contact, /register, /products?q=search+term] originating from IP(s) 192.168.114.180, 184.50.90.129, 192.168.234.79, 177.163.92.112, 176.140.11.184, 3.243.148.38, 10.223.72.58, 172.22.156.19, 10.207.120.203, 173.69.66.116 .",
+      "attackClassification": "Malware Activity",
+      "severity": "Critical",
+      "confidenceScore": 30,
+      "riskScore": 94,
+      "riskFactors": [
+        "Detected Login Failures spikes: 0",
+        "Detected Successful Logins: 0",
+        "Detected SQL union selects: 0",
+        "Unknown executing executables: 9",
+        "Suspicious shell operations: 0"
+      ],
+      "affectedAssets": [
+        "IP Node: 192.168.114.180",
+        "IP Node: 184.50.90.129",
+        "IP Node: 192.168.234.79",
+        "IP Node: 177.163.92.112",
+        "IP Node: 176.140.11.184",
+        "IP Node: 3.243.148.38",
+        "IP Node: 10.223.72.58",
+        "IP Node: 172.22.156.19",
+        "IP Node: 10.207.120.203",
+        "IP Node: 173.69.66.116",
+        "Binary/Process: /blog",
+        "Binary/Process: /services",
+        "Binary/Process: /checkout",
+        "Binary/Process: /search",
+        "Binary/Process: /home",
+        "Binary/Process: /products",
+        "Binary/Process: /contact",
+        "Binary/Process: /register",
+        "Binary/Process: /products?q=search+term"
+      ],
+      "timeline": [
+        {
+          "time": "00:22:06",
+          "event": "177.163.92.112 - - [Jun 17 2026, 00:22:06] \"GET /search HTTP/1.1\" 200 5344 \"http",
+          "status": "info"
+        },
+        {
+          "time": "00:33:08",
+          "event": "192.168.234.79 - - [Jun 16 2026, 00:33:08] \"DELETE /checkout HTTP/1.1\" 400 3471 ",
+          "status": "info"
+        },
+        {
+          "time": "06:50:08",
+          "event": "176.140.11.184 - - [Jun 18 2026, 06:50:08] \"PUT /home HTTP/1.1\" 301 10573 \"https",
+          "status": "info"
+        },
+        {
+          "time": "07:04:09",
+          "event": "3.243.148.38 - - [Jun 13 2026, 07:04:09] \"DELETE /products HTTP/1.1\" 301 4251 \"h",
+          "status": "info"
+        },
+        {
+          "time": "09:43:51",
+          "event": "10.207.120.203 - - [Jun 15 2026, 09:43:51] \"POST /products?q=search+term HTTP/1.",
+          "status": "info"
+        },
+        {
+          "time": "11:12:09",
+          "event": "173.69.66.116 - - [Jun 13 2026, 11:12:09] \"GET /checkout HTTP/1.1\" 200 8538 \"htt",
+          "status": "info"
+        },
+        {
+          "time": "16:39:58",
+          "event": "184.50.90.129 - - [Jun 13 2026, 16:39:58] \"DELETE /services HTTP/1.1\" 304 0 \"htt",
+          "status": "info"
+        },
+        {
+          "time": "19:23:12",
+          "event": "172.22.156.19 - - [Jun 17 2026, 19:23:12] \"DELETE /register HTTP/1.1\" 500 9257 \"",
+          "status": "info"
+        },
+        {
+          "time": "21:16:53",
+          "event": "192.168.114.180 - - [Jun 16 2026, 21:16:53] \"PUT /blog HTTP/1.1\" 400 6440 \"https",
+          "status": "info"
+        },
+        {
+          "time": "21:22:49",
+          "event": "10.223.72.58 - - [Jun 14 2026, 21:22:49] \"POST /contact HTTP/1.1\" 200 8204 \"http",
+          "status": "info"
+        }
+      ],
+      "mitigations": [
+        "Configure network switches to isolate compromised host computer from routing sibling segments.",
+        "Add bad IP network scope to general firewall block-list profiles.",
+        "Clean registry startup keys and script paths."
+      ],
+      "responseChecklist": [
+        {
+          "task": "Isolate compromised host machine from local subnet routers",
+          "completed": true
+        },
+        {
+          "task": "Ban control platform IP routes inside network proxy blocklists",
+          "completed": true
+        },
+        {
+          "task": "Kill anomalous threads executing in active task manager processes",
+          "completed": false
+        },
+        {
+          "task": "Run enterprise scrubbing sweeps matching executable file signatures",
+          "completed": false
+        }
+      ],
+      "analystNotes": "Forensic assessment generated programmatically by CyberBloom Log Analysis Core. Telemetry indicators matched the behavioral profile of Malware Activity. Action mitigations configured above.",
+      "agentExplanations": {
+        "log-detective": {
+          "title": "📥 Log Ingestion Agent",
+          "explanation": "Observed Evidence:\n\n* Process: /blog\n* Process: /services\n* Process: /checkout\n* Process: /search\n* Process: /home\n* Process: /products\n* Process: /contact\n* Process: /register\n* Process: /products?q=search+term\n* Domain: bing.com\n* Domain: twitter.com\n* Domain: example.com\n* Domain: facebook.com\n* Threat IP: 192.168.114.180\n* Threat IP: 184.50.90.129\n* Threat IP: 192.168.234.79\n* Threat IP: 177.163.92.112\n* Threat IP: 176.140.11.184\n* Threat IP: 3.243.148.38\n* Threat IP: 10.223.72.58\n* Threat IP: 172.22.156.19\n* Threat IP: 10.207.120.203\n* Threat IP: 173.69.66.116\n\nReasoning:\n\n* Parsed log characters and extracted: Process: /blog; Process: /services; Process: /checkout; Process: /search; Process: /home; Process: /products; Process: /contact; Process: /register; Process: /products?q=search+term; Domain: bing.com; Domain: twitter.com; Domain: example.com; Domain: facebook.com; Threat IP: 192.168.114.180; Threat IP: 184.50.90.129; Threat IP: 192.168.234.79; Threat IP: 177.163.92.112; Threat IP: 176.140.11.184; Threat IP: 3.243.148.38; Threat IP: 10.223.72.58; Threat IP: 172.22.156.19; Threat IP: 10.207.120.203; Threat IP: 173.69.66.116.\n\nMITRE Mapping:\n\n* N/A - Ingestion stage\n\nAssessment:\n\n* Logs normalized into common schema for pipeline processing.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: /blog",
+            "Process: /services",
+            "Process: /checkout",
+            "Process: /search",
+            "Process: /home",
+            "Process: /products",
+            "Process: /contact",
+            "Process: /register",
+            "Process: /products?q=search+term",
+            "Domain: bing.com",
+            "Domain: twitter.com",
+            "Domain: example.com",
+            "Domain: facebook.com",
+            "Threat IP: 192.168.114.180",
+            "Threat IP: 184.50.90.129",
+            "Threat IP: 192.168.234.79",
+            "Threat IP: 177.163.92.112",
+            "Threat IP: 176.140.11.184",
+            "Threat IP: 3.243.148.38",
+            "Threat IP: 10.223.72.58",
+            "Threat IP: 172.22.156.19",
+            "Threat IP: 10.207.120.203",
+            "Threat IP: 173.69.66.116"
+          ]
+        },
+        "threat-hunter": {
+          "title": "🔍 IOC Detection Agent",
+          "explanation": "Observed Evidence:\n\n* Process: /blog\n* Process: /services\n* Process: /checkout\n* Process: /search\n* Process: /home\n* Process: /products\n* Process: /contact\n* Process: /register\n* Process: /products?q=search+term\n* Domain: bing.com\n* Domain: twitter.com\n* Domain: example.com\n* Domain: facebook.com\n* Threat IP: 192.168.114.180\n* Threat IP: 184.50.90.129\n* Threat IP: 192.168.234.79\n* Threat IP: 177.163.92.112\n* Threat IP: 176.140.11.184\n* Threat IP: 3.243.148.38\n* Threat IP: 10.223.72.58\n* Threat IP: 172.22.156.19\n* Threat IP: 10.207.120.203\n* Threat IP: 173.69.66.116\n\nReasoning:\n\n* Unverified binary execution run, hollowing processes and beaconing.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Logs matched security signature for: Malware Activity\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Process: /blog",
+            "Process: /services",
+            "Process: /checkout",
+            "Process: /search",
+            "Process: /home",
+            "Process: /products",
+            "Process: /contact",
+            "Process: /register",
+            "Process: /products?q=search+term",
+            "Domain: bing.com",
+            "Domain: twitter.com",
+            "Domain: example.com",
+            "Domain: facebook.com",
+            "Threat IP: 192.168.114.180",
+            "Threat IP: 184.50.90.129",
+            "Threat IP: 192.168.234.79",
+            "Threat IP: 177.163.92.112",
+            "Threat IP: 176.140.11.184",
+            "Threat IP: 3.243.148.38",
+            "Threat IP: 10.223.72.58",
+            "Threat IP: 172.22.156.19",
+            "Threat IP: 10.207.120.203",
+            "Threat IP: 173.69.66.116"
+          ]
+        },
+        "risk-judge": {
+          "title": "🧠 MITRE Mapping Agent",
+          "explanation": "Observed Evidence:\n\n* Threat classification resolved: Malware Activity\n* MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic\n\nReasoning:\n\n* Threat pattern mapped to technique T1071.001 - Application Layer Protocol C2 Web Traffic.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Severity category computed as: Critical.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Threat classification resolved: Malware Activity",
+            "MITRE ATT&CK Mapping: T1071.001 - Application Layer Protocol C2 Web Traffic"
+          ]
+        },
+        "report-wizard": {
+          "title": "⚠ Risk Scoring Agent",
+          "explanation": "Observed Evidence:\n\n* Computed Risk Score: 94/100\n* Assigned Severity level: Critical\n\nReasoning:\n\n* Anomalous activity detected based on: executables [/blog, /services, /checkout, /search, /home, /products, /contact, /register, /products?q=search+term].\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Threat risk prioritized based on impact weightings.\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Computed Risk Score: 94/100",
+            "Assigned Severity level: Critical"
+          ]
+        },
+        "defense-advisor": {
+          "title": "📊 Incident Report Agent",
+          "explanation": "Observed Evidence:\n\n* Timeline event checkpoints: 10\n* Mitigation checklist task(s) assigned: 3\n\nReasoning:\n\n* Advisor compiled 3 mitigation task(s) matching classification Malware Activity.\n\nMITRE Mapping:\n\n* T1071.001 - Application Layer Protocol C2 Web Traffic\n\nAssessment:\n\n* Mitigations compiled: [Configure network switches to isolate compromised host computer from routing sibling segments.; Add bad IP network scope to general firewall block-list profiles.].\n\nConfidence:\n\n* Low\n\nRecommended Actions:\n\n* Isolate affected endpoint\n* Run antivirus scan\n* Block malicious domain",
+          "evidence": [
+            "Timeline event checkpoints: 10",
+            "Mitigation checklist task(s) assigned: 3"
+          ]
+        }
+      }
+    }
+  ]
+}

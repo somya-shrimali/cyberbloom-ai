@@ -1,0 +1,6 @@
+{
+  "name": "CyberBloom AI",
+  "description": "Collaborative AI Security Intelligence Studio that turns raw security logs into explainable, beautifully detailed threat assessments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
