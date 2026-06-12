@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://placehold.co/1200x300/0f172a/ffffff?text=CyberBloom+AI" />
-</p><div align="center">
+<img width="1521" height="361" alt="image" src="https://github.com/user-attachments/assets/b84101eb-d531-4ca1-876e-98899d8d99cf" />
+
 
 # 🛡️ CyberBloom AI
 
